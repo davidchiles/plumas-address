@@ -24,8 +24,8 @@ zipEntries.forEach(function(zipEntry) {
         	var addresses = result.kml.Document[0].Folder[1].Placemark.map(function(placemark){
 				var result = {}
 				var pointArray = placemark.Point[0].coordinates[0].split(',');
-				result.lat = pointArray[0];
-				result.lon = pointArray[1];
+				result.lon = pointArray[0];
+				result.lat = pointArray[1];
 				placemark.ExtendedData[0].SchemaData[0].SimpleData.forEach(function(data) {
 					result[data.$.name] = data._
 				});
