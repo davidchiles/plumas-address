@@ -1,0 +1,17 @@
+{
+  "name": "plumas-address",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "json2csv": "^3.7.2",
+    "nopt": "^3.0.6",
+    "xml2js": "^0.4.17"
+  }
+}
